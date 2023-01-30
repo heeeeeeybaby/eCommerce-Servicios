@@ -1,8 +1,12 @@
+import { ItemListContainer } from "./ItemListContainer/ItemListContainer";
 import Navbar from "./Navbar/Navbar";
 function App() {
   return (
-    <Navbar/>
-  );
+    <>
+      <Navbar/>
+      <ItemListContainer/> 
+    </>
+    ); 
 }
 
 export default App;

@@ -1,0 +1,102 @@
+[
+    {
+        "id" : 1,
+        "idCategoria" : 1,
+        "nombre" : "Classic Wedding Photography", 
+        "descripcion" : "Fotografías para tu matrimonio",
+        "fotos" : 800,
+        "preparativos" : "Preparativos en (1) locación hasta el cotillón",
+        "horasCobertura" : 9,
+        "equipo" : "1 Fotógrafo + Asistente",
+        "entrega" : "Entrega Vía Descarga Online",
+        "valorNormal" : 650000,
+        "stock" : 20, 
+        "img" : "classic-wedding-photo-ampersand.jpg"
+    
+    }, 
+    {
+        "id" : 2,
+        "idCategoria" : 1,
+        "nombre" : "Experience Wedding Photography", 
+        "descripcion" : "Fotografías para tu matrimonio",
+        "fotos" : "Ilimitadas",
+        "preparativos" : "Preparativos en (2) locación hasta el cotillón",
+        "horasCobertura" : 10,
+        "equipo" : "2 Fotógrafos",
+        "entrega" : "Entrega Vía Descarga Online",
+        "valorNormal" : 750000,
+        "stock" : 20, 
+        "img" : "experience-wedding-photo-ampersand.jpg"
+    
+    }, 
+    {
+        "id" : 3,
+        "idCategoria" : 2,
+        "nombre" : "Classic Wedding Film", 
+        "descripcion" : "Un video de 15 minutos para recordar tu matrimonio",
+        "minFilm" : 15,
+        "minHighlights" : 4, 
+        "preparativos" : "Preparativos en (1) locación hasta el cotillón",
+        "horasCobertura" : 9,
+        "equipo" : "2 videógrafos con cámaras 4K",
+        "entrega" : "Entrega Vía Descarga Online",
+        "valorOferta" : 790990,
+        "valorNormal" : 830000,
+        "stock" : 20, 
+        "img" : "classic-wedding-film-ampersand.jpg"
+
+    }, 
+    {
+        "id" : 4,
+        "idCategoria" : 2,
+        "nombre" : "Experience Wedding Film", 
+        "descripcion" : "Un video de 20 minutos para recordar tu matrimonio",
+        "minFilm" : 20,
+        "minHighlights" : 4, 
+        "preparativos" : "Preparativos en (2) locaciones hasta el cotillón",
+        "horasCobertura" : 10,
+        "equipo" : "2 videógrafos con cámaras 4K",
+        "entrega" : "Entrega Vía Descarga Online",
+        "valorOferta" : 890990,
+        "valorNormal" : 980000,
+        "stock" : 20, 
+        "img" : "experience-wedding-film-ampersand.jpg"
+
+    },
+    {
+        "id" : 5,
+        "idCategoria" : 3,
+        "nombre" : "Wedding Full Classic", 
+        "descripcion" : "Fotografía y video para tu matrimonio",
+        "minFilm" : 15,
+        "minHighlights" : 4, 
+        "fotos" : 800,
+        "preparativos" : "Preparativos en (1) locación hasta el cotillón",
+        "horasCobertura" : 9,
+        "equipo" : "1 fotógrafo + Asistente, 1 videógrafo",
+        "entrega" : "Entrega Vía Descarga Online",
+        "valorOferta" : 1440990,
+        "valorNormal" : 1390990,
+        "stock" : 10, 
+        "img" : "classic-wedding-full-ampersand.jpg"
+
+    }, 
+    {
+        "id" : 6,
+        "idCategoria" : 3,
+        "nombre" : "Wedding Full Experience", 
+        "descripcion" : "Fotografía y video para tu matrimonio",
+        "minFilm" : 20,
+        "minHighlights" : 4, 
+        "fotos" : "Ilimitadas",
+        "preparativos" : "Preparativos en (2) locaciones hasta el cotillón",
+        "horasCobertura" : 10,
+        "equipo" : "2 fotógrafos + 2 videógrafos",
+        "entrega" : "Entrega Vía Descarga Online",
+        "valorOferta" : 1640990,
+        "valorNormal" : 1599990,
+        "stock" : 10, 
+        "img" : "experience-wedding-full-ampersand.jpg"
+
+    }
+]
