@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 export const Item = ({item}) => {
     return(
         <>
@@ -10,7 +10,7 @@ export const Item = ({item}) => {
           <p className="card-text">{item.descripcion}</p>
           <hr />
           <h6 className="card-subtitle mb-2 text-muted"> Precio: {item.valorNormal}</h6>
-          <button type="button" className="mt-2 btn btn-primary">Ver Servicio</button>
+          <button className="btn btn-dark"><Link className="nav-link" to={`/item/${item.id}`}>Ver Producto</Link></button>
         </div>
         </div>
         </>

@@ -1,30 +1,20 @@
+import { Link } from "react-router-dom";
+import { Categorias } from "../Categorias/Categorias";
 const Secciones =() =>{
     return (
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Inicio</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Films</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Fotografías</a>
-        </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Extensiones
-          </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Retrocam</a></li>
-            <li><a className="dropdown-item" href="#">VR 360</a></li>
-            <li><hr className="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="#">Servicios Adicionales</a></li>
-          </ul>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Tabla resumen</a>
-        </li>
-      </ul>
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+          <li className="nav-item">
+            <Link className="nav-link active" aria-current="page" to={"/"}>Inicio</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to={"/films"}>Quienes Somos</Link>
+          </li>
+          <Categorias/>
+          <li className="nav-item">
+            <Link className="nav-link" to={"/contacto"}><button className="btn btn-dark">Contacto</button></Link>
+          </li>
+
+        </ul>
     );
 }
 

@@ -1,7 +1,7 @@
 [
     {
-        "id" : 1,
-        "idCategoria" : 1,
+        "id" : "classic-wedding-photography",
+        "idCategoria" : "photo",
         "nombre" : "Classic Wedding Photography", 
         "descripcion" : "Fotografías para tu matrimonio",
         "fotos" : 800,
@@ -15,8 +15,8 @@
     
     }, 
     {
-        "id" : 2,
-        "idCategoria" : 1,
+        "id" : "experience-wedding-photography",
+        "idCategoria" : "photo",
         "nombre" : "Experience Wedding Photography", 
         "descripcion" : "Fotografías para tu matrimonio",
         "fotos" : "Ilimitadas",
@@ -30,8 +30,8 @@
     
     }, 
     {
-        "id" : 3,
-        "idCategoria" : 2,
+        "id" : "classic-wedding-film",
+        "idCategoria" : "films",
         "nombre" : "Classic Wedding Film", 
         "descripcion" : "Un video de 15 minutos para recordar tu matrimonio",
         "minFilm" : 15,
@@ -47,8 +47,8 @@
 
     }, 
     {
-        "id" : 4,
-        "idCategoria" : 2,
+        "id" : "experience-wedding-film",
+        "idCategoria" : "films",
         "nombre" : "Experience Wedding Film", 
         "descripcion" : "Un video de 20 minutos para recordar tu matrimonio",
         "minFilm" : 20,
@@ -64,8 +64,8 @@
 
     },
     {
-        "id" : 5,
-        "idCategoria" : 3,
+        "id" : "wedding-full-classic",
+        "idCategoria" : "full",
         "nombre" : "Wedding Full Classic", 
         "descripcion" : "Fotografía y video para tu matrimonio",
         "minFilm" : 15,
@@ -78,12 +78,12 @@
         "valorOferta" : 1440990,
         "valorNormal" : 1390990,
         "stock" : 10, 
-        "img" : "mac-air.jpg"
+        "img" : "classic-wedding-films.jpg"
 
     }, 
     {
-        "id" : 6,
-        "idCategoria" : 3,
+        "id" : "wedding-full-experience",
+        "idCategoria" : "full",
         "nombre" : "Wedding Full Experience", 
         "descripcion" : "Fotografía y video para tu matrimonio",
         "minFilm" : 20,
@@ -97,6 +97,34 @@
         "valorNormal" : 1599990,
         "stock" : 10, 
         "img" : "motorola-pulse.jpg"
+
+    }, 
+    {
+        "id" : "retrocam-color",
+        "idCategoria" : "servicios-adicionales",
+        "nombre" : "Retrocam Color", 
+        "descripcion" : "Fotografías análogas 35mm tomadas por tus invitados en Color",
+        "fotos" : "Hasta 360 fotografías",
+        "horasCobertura" : 4,
+        "equipo" : "Arriendo de 10 cámaras análogas 35mm + rollos Color",
+        "entrega" : "Entrega Vía Descarga Online",
+        "valorNormal" : 599990,
+        "stock" : 6, 
+        "img" : "retrocam-color.jpg"
+
+    },
+    {
+        "id" : "retrocam-b-n",
+        "idCategoria" : "servicios-adicionales",
+        "nombre" : "Retrocam B&W", 
+        "descripcion" : "Fotografías análogas 35mm tomadas por tus invitados en Blanco & Negro",
+        "fotos" : "Hasta 360 fotografías",
+        "horasCobertura" : 4,
+        "equipo" : "Arriendo de 10 cámaras análogas 35mm + rollos B&N",
+        "entrega" : "Entrega Vía Descarga Online",
+        "valorNormal" : 399990,
+        "stock" : 6, 
+        "img" : "retrocam-bn.jpg"
 
     }
 ]

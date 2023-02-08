@@ -11,7 +11,7 @@ const Navbar = () => {
                 <ResponsiveNavbar/>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <Secciones/>
-                    <Carrito cantCarrito={5}/>
+                    <Carrito cantCarrito={3}/>
                 </div>
             </div>
         </nav>
