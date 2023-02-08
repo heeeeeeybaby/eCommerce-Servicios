@@ -6,18 +6,20 @@ export const ItemDetailContainer = () => {
     const [producto, setProducto] = useState([])
     const {id} = useParams()
     useEffect(() => {
-        fetch('../json/productos.json')
+        fetch('../json/servicios.json')
         .then(response => response.json())
         .then(products => {
-            const item = products.find(prod => prod.id === parseInt(id))
+            const item = products.find(prod => prod.id === id)
             setProducto(item)
         })
     }, [])
     return (
-        <div className="container mt-4 pt-3">
+        <div className="container mt-5 pt-5">
             <div className="row justify-content-center">
-                <div className='card mb-3 itemDetail'>
-                    <ItemDetail item={producto}/>
+                <div className="col-md-9">
+                    <div className='card mb-3 itemDetail'>
+                        <ItemDetail item={producto}/>
+                    </div>
                 </div>
             </div>
         </div>
