@@ -2,6 +2,7 @@
     {
         "id" : "classic-wedding-photography",
         "idCategoria" : "photo",
+        "categoria" : "Fotografía",
         "nombre" : "Classic Wedding Photography", 
         "descripcion" : "Fotografías para tu matrimonio",
         "fotos" : 800,
@@ -17,6 +18,7 @@
     {
         "id" : "experience-wedding-photography",
         "idCategoria" : "photo",
+        "categoria" : "Fotografía",
         "nombre" : "Experience Wedding Photography", 
         "descripcion" : "Fotografías para tu matrimonio",
         "fotos" : "Ilimitadas",

@@ -31,6 +31,9 @@ export const ItemListContainer = () => {
     }, [idCategoria])
     return (
         <div className='container mt-4 pt-4'>
+            <div className="row justify-content-center mt-5">
+                <h3 className='text-center text-capitalize'>{idCategoria}</h3>
+            </div>
             <div className='row justify-content-center cardProductos mt-4 pt-3'>
                 {productos}
             </div>
