@@ -1,6 +1,6 @@
 import {useState,useEffect} from 'react'
 import { useParams } from 'react-router-dom'
-
+import { getProducto } from '../../firebase/firebase'
 import { ItemList } from '../ItemList/ItemList'
 
 export const ItemListContainer = () => {
@@ -9,7 +9,8 @@ export const ItemListContainer = () => {
 
     useEffect(() => {
         if(idCategoria) {
-            fetch('../json/servicios.json')
+            // dejo de preguntar a mi json local fetch('../json/servicios.json')
+            getProductos()
             .then(response => response.json())
             .then(items => {
                 const products = items.filter(prod => prod.idCategoria === (idCategoria))

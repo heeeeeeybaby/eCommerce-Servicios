@@ -1,4 +1,4 @@
-import Brand from "./Brand/Brand";
+import { Brand } from "./Brand/Brand";
 import Carrito from "./Carrito/Carrito";
 import { ResponsiveNavbar } from "./ResponsiveNavbar/ResponsiveNavbar";
 import Secciones from "./Secciones/Secciones";

@@ -12,7 +12,7 @@
         "entrega" : "Entrega Vía Descarga Online",
         "valorNormal" : 650000,
         "stock" : 20, 
-        "img" : "apple-tv.jpg"
+        "img" : "gs://react-2023-73a32.appspot.com/apple-tv.jpg"
     
     }, 
     {
@@ -28,7 +28,7 @@
         "entrega" : "Entrega Vía Descarga Online",
         "valorNormal" : 750000,
         "stock" : 20, 
-        "img" : "camara-iqual.jpg"
+        "img" : "gs://react-2023-73a32.appspot.com/camara-iqual.jpg"
     
     }, 
     {
@@ -45,7 +45,7 @@
         "valorOferta" : 790990,
         "valorNormal" : 830000,
         "stock" : 20, 
-        "img" : "hp-pavilion.jpg"
+        "img" : "gs://react-2023-73a32.appspot.com/hp-pavilion.jpg"
 
     }, 
     {
@@ -62,7 +62,7 @@
         "valorOferta" : 890990,
         "valorNormal" : 980000,
         "stock" : 20, 
-        "img" : "iphone-x.jpg"
+        "img" : "gs://react-2023-73a32.appspot.com/iphone-x.jpg"
 
     },
     {
@@ -80,7 +80,7 @@
         "valorOferta" : 1440990,
         "valorNormal" : 1390990,
         "stock" : 10, 
-        "img" : "classic-wedding-films.jpg"
+        "img" : "gs://react-2023-73a32.appspot.com/classic-wedding-films.jpg"
 
     }, 
     {
@@ -98,7 +98,7 @@
         "valorOferta" : 1640990,
         "valorNormal" : 1599990,
         "stock" : 10, 
-        "img" : "motorola-pulse.jpg"
+        "img" : "gs://react-2023-73a32.appspot.com/retrocam-color.jpg"
 
     }, 
     {
@@ -112,7 +112,7 @@
         "entrega" : "Entrega Vía Descarga Online",
         "valorNormal" : 599990,
         "stock" : 6, 
-        "img" : "retrocam-color.jpg"
+        "img" : "gs://react-2023-73a32.appspot.com/retrocam-color.jpg"
 
     },
     {
@@ -126,7 +126,7 @@
         "entrega" : "Entrega Vía Descarga Online",
         "valorNormal" : 399990,
         "stock" : 6, 
-        "img" : "retrocam-bn.jpg"
+        "img" : "gs://react-2023-73a32.appspot.com/retrocam-bn.jpg"
 
     }
 ]

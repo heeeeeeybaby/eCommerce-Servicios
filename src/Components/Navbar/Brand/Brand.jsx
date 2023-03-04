@@ -1,11 +1,10 @@
+import  React  from 'react';
 import { Link } from "react-router-dom";
-import ampersandLogo from '../../../img/logo-ampersand.svg';
-const Brand = () =>{
+export const Brand = React.memo(() =>{
     return(
         <Link className="navbar-brand" to={'/'}>
-        <img src={ampersandLogo} alt="Logo" width={30} height={24} className="d-inline-block align-text-top" />
+        <img src='gs://react-2023-73a32.appspot.com/img/logo-ampersand.svg' alt="Logo" width={30} height={24} className="d-inline-block align-text-top" />
         </Link>
     );
-}
-
-export default Brand;
+    }
+)

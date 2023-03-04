@@ -6,9 +6,10 @@ export const ItemDetailContainer = () => {
     const [producto, setProducto] = useState([])
     const {id} = useParams()
     useEffect(() => {
-        fetch('../json/servicios.json')
-        .then(response => response.json())
-        .then(products => {
+        // fetch('../json/servicios.json')
+        //.then(response => response.json())
+        
+/*         .then(products => {
             const item = products.find(prod => prod.id === id)
             setProducto(item)
         })
@@ -24,5 +25,6 @@ export const ItemDetailContainer = () => {
             </div>
         </div>
 
-    )
+    ) */
+})
 }
