@@ -9,7 +9,7 @@ export const Item = ({item}) => {
           <h5 className="card-title">{item.nombre}</h5>
           <p className="card-text">{item.descripcion}</p>
           <hr />
-          <h6 className="card-subtitle mb-2 text-muted"> Precio: ${new Intl.NumberFormat('de-DE').format(item.valorNormal)}</h6>
+          <h6 className="card-subtitle mb-3 text-muted"> Precio: ${new Intl.NumberFormat('de-DE').format(item.valorNormal)}</h6>
           <button className="btn btn-dark"><Link className="nav-link" to={`/item/${item.id}`}>Ver Producto</Link></button>
         </div>
         </div>

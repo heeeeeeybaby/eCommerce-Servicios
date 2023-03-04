@@ -4,7 +4,7 @@
         "idCategoria" : "photo",
         "categoria" : "Fotografía",
         "nombre" : "Classic Wedding Photography", 
-        "descripcion" : "Fotografías para tu matrimonio",
+        "descripcion" : "Un fotógrafo dedicado y un servicio de hasta 9 horas de cobertura para registrar tu matrimonio de inicio a fin",
         "fotos" : 800,
         "preparativos" : "Preparativos en (1) locación hasta el cotillón",
         "horasCobertura" : 9,
@@ -12,7 +12,7 @@
         "entrega" : "Entrega Vía Descarga Online",
         "valorNormal" : 650000,
         "stock" : 20, 
-        "img" : "apple-tv.jpg"
+        "img" : "classic-wedding-photo.jpg"
     
     }, 
     {
@@ -20,7 +20,7 @@
         "idCategoria" : "photo",
         "categoria" : "Fotografía",
         "nombre" : "Experience Wedding Photography", 
-        "descripcion" : "Fotografías para tu matrimonio",
+        "descripcion" : "2 Fotógrafos cubriendo el evento y la entrega de fotografías ilimitadas, ideal para matrimonios desde 200 invitados",
         "fotos" : "Ilimitadas",
         "preparativos" : "Preparativos en (2) locación hasta el cotillón",
         "horasCobertura" : 10,
@@ -28,14 +28,14 @@
         "entrega" : "Entrega Vía Descarga Online",
         "valorNormal" : 750000,
         "stock" : 20, 
-        "img" : "camara-iqual.jpg"
+        "img" : "experience-wedding-photo.jpg"
     
     }, 
     {
         "id" : "classic-wedding-film",
         "idCategoria" : "films",
         "nombre" : "Classic Wedding Film", 
-        "descripcion" : "Un video de 15 minutos para recordar tu matrimonio",
+        "descripcion" : "Un video de 15 minutos para recordar tu matrimonio, registrado por 2 videógrafos durante el evento",
         "minFilm" : 15,
         "minHighlights" : 4, 
         "preparativos" : "Preparativos en (1) locación hasta el cotillón",
@@ -45,14 +45,14 @@
         "valorOferta" : 790990,
         "valorNormal" : 830000,
         "stock" : 20, 
-        "img" : "hp-pavilion.jpg"
+        "img" : "classic-wedding-films.jpg"
 
     }, 
     {
         "id" : "experience-wedding-film",
         "idCategoria" : "films",
         "nombre" : "Experience Wedding Film", 
-        "descripcion" : "Un video de 20 minutos para recordar tu matrimonio",
+        "descripcion" : "Un video de 20 minutos para recordar tu matrimonio que incluyen los preparativos de ambos novios/as",
         "minFilm" : 20,
         "minHighlights" : 4, 
         "preparativos" : "Preparativos en (2) locaciones hasta el cotillón",
@@ -62,14 +62,14 @@
         "valorOferta" : 890990,
         "valorNormal" : 980000,
         "stock" : 20, 
-        "img" : "iphone-x.jpg"
+        "img" : "experience-wedding-film.jpg"
 
     },
     {
         "id" : "wedding-full-classic",
         "idCategoria" : "full",
         "nombre" : "Wedding Full Classic", 
-        "descripcion" : "Fotografía y video para tu matrimonio",
+        "descripcion" : "Fotografías y un video de 15 minutos para tu matrimonio en un pack optimizado para matrimonios o ceremonias petit",
         "minFilm" : 15,
         "minHighlights" : 4, 
         "fotos" : 800,
@@ -80,14 +80,14 @@
         "valorOferta" : 1440990,
         "valorNormal" : 1390990,
         "stock" : 10, 
-        "img" : "classic-wedding-films.jpg"
+        "img" : "classic-wedding-film.jpg"
 
     }, 
     {
         "id" : "wedding-full-experience",
         "idCategoria" : "full",
         "nombre" : "Wedding Full Experience", 
-        "descripcion" : "Fotografía y video para tu matrimonio",
+        "descripcion" : "Fotografía y video para tu matrimonio con máxima cobertura, un equipo de 2 videógrafos y 2 fotógrafos durante todo el evento",
         "minFilm" : 20,
         "minHighlights" : 4, 
         "fotos" : "Ilimitadas",
@@ -98,7 +98,7 @@
         "valorOferta" : 1640990,
         "valorNormal" : 1599990,
         "stock" : 10, 
-        "img" : "motorola-pulse.jpg"
+        "img" : "full-experience.jpg"
 
     }, 
     {

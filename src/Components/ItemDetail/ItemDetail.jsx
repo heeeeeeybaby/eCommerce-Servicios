@@ -2,8 +2,8 @@ import {ItemCount} from '../ItemCount/ItemCount'
 export const ItemDetail = ({item}) => {
   return (
     <div className='row justify-content-center'>
-        <div className="col-md-4">
-            <img src={`../img/${item.img}`} className="img-fluid rounded-start" alt={`Imagen de ${item.nombre}`} />
+        <div className="col-md-4 align-self-center">
+            <img src={`../img/${item.img}`} className="img-fluid rounded" alt={`Imagen de ${item.nombre}`} />
         </div>
         <div className="col-md-6">
             <div className="card-body pt-5">
