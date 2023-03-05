@@ -41,7 +41,7 @@ export const Checkout = () => {
         ? 
         <>  
             <div className="container mt-7">
-                <div className="row justify-content-center">
+                <div className="row justify-content-center text-center">
                     <div className="col-6">
                     <h1>Checkout</h1>
                     <h2>Ups! Tu carrito está vacío</h2>
@@ -52,8 +52,19 @@ export const Checkout = () => {
             </div>
         </>
         :
-            <div className="container" style={{marginTop:"20px"}}>
-            <form onSubmit={consultarFormulario} ref={datosFormulario}>
+            <div className="container mt-7">
+                <div className="row text-center 
+                justify-content-center my-3">
+                    <div className="col-6">
+                        <h1>Checkout</h1>
+                        <p>Ingresa tus datos para completar la compra</p>
+                    </div> 
+
+                </div>
+
+                <div className="row justify-content-center">
+                    <div className="col-7">
+                    <form onSubmit={consultarFormulario} ref={datosFormulario}>
                 <div className="mb-3">
                 <label htmlFor="nombre" className="form-label">Nombre y apellido</label>
                 <input type="text" className="form-control" name="nombre"/>
@@ -77,6 +88,9 @@ export const Checkout = () => {
 
             <button type="submit" className="btn btn-primary">Ir a Pagar</button>
             </form>
+                    </div>
+                </div>
+
         </div>
         }
     
