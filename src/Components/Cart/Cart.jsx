@@ -11,7 +11,7 @@ export const Cart = () => {
                     <div className="container mt-7">
                         <div className="row justify-content-center">
                             <div className="col-6">
-                            <h2>OH NO! Tu carrito está vacío</h2>
+                            <h2>Ups! Tu carrito está vacío</h2>
                             <p>Navega en nuestro catálogo de servicios y añádelos al carrito</p>
                             <Link className="nav-link" to={'/'}><button className="btn btn-dark">Ir al Catálogo</button></Link> 
                             </div>
@@ -19,12 +19,12 @@ export const Cart = () => {
                     </div>
                 </>
               : //Si carrito tiene productos
-                <div className="container cartContainer">
+                <div className="container cartContainer mt-7">
                     {<ItemList products={carrito} plantilla={'itemCart'}/>}
                     <div className="divButtons">
                         <p>Resumen de la compra: $ {new Intl.NumberFormat('de-DE').format(totalPrice())}</p>
                         <button className="btn btn-danger" onClick={() => emptyCart()}>Vaciar carrito</button>
-                        <Link className="nav-link" to={'/'}><button className="btn btn-dark">Continuar Comprando</button></Link> 
+                        <Link className="nav-link" to={'/'}><button className="btn btn-dark my-3">Continuar Comprando</button></Link> 
                         <Link className="nav-link" to={'/checkout'}><button className="btn btn-dark">Finalizar compra</button></Link> 
                     </div>
                 </div>

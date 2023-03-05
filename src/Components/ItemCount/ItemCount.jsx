@@ -11,13 +11,16 @@ export const ItemCount = ({valInicial, stock, onAdd}) => {
     const agregarCarrito = () => {
       onAdd(contador)
       toast(`🦄 Agregaste ${contador} productos al carrito!`) 
+     
+
     }
   return (
     <>
         <button className="btn btn-dark mx-2" onClick={() => restar()}>-</button>
             {contador}
         <button className="btn btn-dark mx-2" onClick={() => sumar()}>+</button>
-        <button className='btn btn-success mx-1'><i className="bi bi-cart" onClick={() => agregarCarrito()} /> Agregar al Carrito</button>
+        <button type="button" className='btn btn-success mx-1' onClick={() => agregarCarrito()}><i className="bi bi-cart"/> Agregar al Carrito</button>
+        
 
     </>
   )
