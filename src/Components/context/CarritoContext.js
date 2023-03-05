@@ -1,12 +1,10 @@
 import { useContext, createContext, useState } from "react";
-
-const CarritoContext = createContext()
+const CarritoContext = createContext();
 
 export const useCarritoContext = () => useContext(CarritoContext)
 
 export const CarritoProvider = (props) => {
-
-    const [carrito, setCarrito] = useState([])
+    const [carrito, setCarrito] = useState([]);
 
     //Si existe producto en el carrito
     const isInCart = (id) => {
