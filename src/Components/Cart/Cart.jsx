@@ -11,7 +11,7 @@ export const Cart = () => {
                     <div className="container mt-7">
                         <div className="row justify-content-center">
                             <div className="col-6">
-                            <h2>Ups! Tu carrito está vacío</h2>
+                            <h2>OH NO! Tu carrito está vacío</h2>
                             <p>Navega en nuestro catálogo de servicios y añádelos al carrito</p>
                             <Link className="nav-link" to={'/'}><button className="btn btn-dark">Ir al Catálogo</button></Link> 
                             </div>
